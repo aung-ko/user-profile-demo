@@ -9,7 +9,7 @@ class UserProfiles
     public function all()
     {
         return UserProfile::select()
-            ->filter(request(['name', 'gender', 'marital_status', 'address']))
+            ->filter(request(['name', 'gender', 'marital_status', 'address', 'birthday']))
             ->get();
     }
 

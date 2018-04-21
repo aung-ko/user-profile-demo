@@ -25,5 +25,9 @@ class UserProfile extends Model
         if (array_key_exists('address', $filter)) {
             $query->where('address', 'like', '%' . $filter['address'] . '%');
         }
+
+        if (array_key_exists('birthday', $filter)) {
+            $query->where('birthday', $filter['birthday']);
+        }
     }
 }
