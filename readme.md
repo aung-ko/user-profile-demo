@@ -8,7 +8,7 @@ DB_USERNAME=your_db_user
 DB_PASSWORD=your_password
 ```
 
-Then install, migrate, seed, all that jazz:
+Then install, migrate
 
 1. `composer install`
 2. `php artisan migrate`
