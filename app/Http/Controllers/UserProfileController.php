@@ -34,6 +34,7 @@ class UserProfileController extends Controller
         ]);
 
         UserProfile::create($validatedData);
-        return redirect('/');
+        session()->flash('message', 'Your data has been submitted successfully');
+        return back();
     }
 }
