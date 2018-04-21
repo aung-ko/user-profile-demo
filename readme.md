@@ -1,6 +1,7 @@
 ## Running the Project
 
-First, create the database (and database user if necessary) and add them to the `.env` file.
+First, create the database (and database user if necessary).
+Copy from `.env.example` and add them to the `.env` file.
 
 ```
 DB_DATABASE=your_db_name
