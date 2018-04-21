@@ -8,6 +8,8 @@
 
     <h1>User profile form requirement</h1>
 
+    </p>
+    
     @include('layouts.errors')
 
     <form class="form-horizontal" method="POST" action="{{ route('userProfiles') }}">
