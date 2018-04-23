@@ -73,7 +73,7 @@
             <div class="form-group row">
                 <label for="name" class="col-md-2 col-form-label">Phone: </label>
                 <div class="col-md-10">
-                    <input type="text" class="form-control" id="phone" name="phone" value="{{ old('phone') }}">
+                    <input type="text" class="form-control" id="phone" name="phone" value="{{ old('phone') }}" placeholder="Phone number must be 9 to 11 numbers">
                 </div>
             </div>
                 
