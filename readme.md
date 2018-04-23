@@ -1,4 +1,4 @@
-## Running the Project
+## Running the Project Locally
 
 First, create the database (and database user if necessary).
 Copy from `.env.example` and add them to the `.env` file.
