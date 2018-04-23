@@ -12,5 +12,6 @@
 */
 
 Route::get('/', 'UserProfileController@create');
+Route::get('/home', 'UserProfileController@create');
 
 Route::post('userProfiles', 'UserProfileController@store')->name('userProfiles');
