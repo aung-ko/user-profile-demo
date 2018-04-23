@@ -23,19 +23,19 @@ Endpoints can be called by with some parameters.
 
 ## Getting data from API
 ### Get User Profiles by name
-`localhost:8000/api/userProfiles?name={name}`
+`/api/userProfiles?name={name}`
 
 ### Get User Profiles by gender
-`localhost:8000/api/userProfiles?gender={gender}`
+`/api/userProfiles?gender={gender}`
 
 ### Get User Profiles by marital status
-`localhost:8000/api/userProfiles?marital_status={marital_status}`
+`/api/userProfiles?marital_status={marital_status}`
 
 ### Get User Profiles by address
-`localhost:8000/api/userProfiles?address={address}`
+`/api/userProfiles?address={address}`
 
 ### Get User Profiles by birthday
-`localhost:8000/api/userProfiles?birthday={birthday}`
+`/api/userProfiles?birthday={birthday}`
 
 ### Get User Profiles with two or parameters
-`localhost:8000/api/userProfiles?name={name}&gender={gender}&address={address}`
+`/api/userProfiles?name={name}&gender={gender}&address={address}`
