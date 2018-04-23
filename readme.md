@@ -21,7 +21,7 @@ API of all user profiles can be called from `localhost:8000/api/userProfiles` en
 
 Endpoints can be called by with some parameters.
 
-## Getting data from API
+<a name="gettingdata"></a>## Getting data from API
 ### Get User Profiles by name
 `localhost:8000/api/userProfiles?name={name}`
 
